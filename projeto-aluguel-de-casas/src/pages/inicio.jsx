@@ -1,4 +1,3 @@
-import Banner from "../components/Banner";
 import Footer from "../components/footer";
 import Header from "../components/Header"
 import Pesquisar from "../components/Pesquisar";
@@ -9,7 +8,6 @@ const Inicio = () => {
         <>
             <Header />
             <Pesquisar />
-            <Banner />
             <Footer />
         </>
 

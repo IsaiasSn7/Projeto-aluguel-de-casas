@@ -1,19 +1,19 @@
-import logo from '../img/Logo-chave-certa.png';
+import logo from "../img/Logo-chave-certa.png";
 
 const Header = () => {
-    return (
-        <>
-            <div className='bg-VerdeForte flex items-center h-[72px]'>
-                <div className='flex justify-between mx-[7%] w-full'>
-                    <img className='' src={logo} alt="logo" />
-                    <button className='flex items-center justify-center gap-[11px] w-[120px] h-[40px] bg-VerdeBranco rounded-[5px] text-VerdeForte'>
-                        <box-icon name='user' type='solid' color='#7bdb24' ></box-icon>
-                        Entrar
-                    </button>
-                </div>
-            </div>
-        </>
-    );
-}
+  return (
+    <>
+      <div className="bg-Roxo flex h-[72px] items-center">
+        <div className="mx-[7%] flex w-full justify-between lg:mx-[50px]">
+          <img className="" src={logo} alt="logo" />
+          <button className="text-Laranja flex h-[40px] w-[120px] items-center justify-center gap-[11px] rounded-[5px] bg-white duration-300 hover:scale-105">
+            <box-icon name="user" type="solid" color="#ff880c"></box-icon>
+            Entrar
+          </button>
+        </div>
+      </div>
+    </>
+  );
+};
 
 export default Header;
