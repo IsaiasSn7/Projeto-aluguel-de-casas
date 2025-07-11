@@ -9,8 +9,8 @@ function App() {
 
   return (
     <>
-      <Inicio />
-      {/* <Entrar /> */}
+      {/* <Inicio /> */}
+      <Entrar />
     </>
   )
 }
