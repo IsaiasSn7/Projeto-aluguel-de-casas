@@ -3,6 +3,9 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import Inicio from './pages/inicio'
 import Entrar from './pages/Entrar'
+import Cadastrar from './pages/Cadastrar'
+import Pesquisa from './pages/Pesquisa'
+import HeaderLogado from './components/HeaderLogado'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -10,7 +13,10 @@ function App() {
   return (
     <>
       {/* <Inicio /> */}
-      <Entrar />
+      {/* <Entrar /> */}
+      {/* <Cadastrar /> */}
+      {/* <Pesquisa /> */}
+      <HeaderLogado />
     </>
   )
 }

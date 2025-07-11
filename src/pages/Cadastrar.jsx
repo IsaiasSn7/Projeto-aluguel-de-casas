@@ -1,19 +1,24 @@
 import { useState } from "react";
 import logoBranca from "../img/logo-branca.png";
 
-const Entrar = () => {
+const Cadastrar = () => {
   const [showPassword, setShowPassword] = useState(false);
 
   return (
     <div className="bg-Roxo flex h-screen w-screen items-center justify-center">
       <div className="bg-white p-[10px] w-[350px] rounded-[5px] lg:w-[400px]">
         <a href="#"><box-icon name="left-arrow-alt" color="#2b0464"></box-icon></a>
-        <div className="flex h-[400px] flex-col items-center justify-center">
-          <img className="mb-[40px]" src={logoBranca} alt="logo-branca" />
-          <form className="flex flex-col text-[16px] mb-[20px]">
+        <div className="flex h-[430px] flex-col items-center justify-center">
+          <img className="mb-[30px]" src={logoBranca} alt="logo-branca" />
+          <form className="flex flex-col text-[16px] mb-[35px]">
+            <label className="mb-[6px]">Nome</label>
+            <input
+              className="mb-[15px] h-[45px] w-[300px] rounded-[5px] bg-gray-300 border border-gray-400 focus:border-Laranja outline-none px-4 py-2 duration-200"
+              type="email"
+            />
             <label className="mb-[6px]">Email</label>
             <input
-              className="mb-[20px] h-[45px] w-[300px] rounded-[5px] bg-gray-300 border border-gray-400 focus:border-Laranja outline-none px-4 py-2 duration-200"
+              className="mb-[15px] h-[45px] w-[300px] rounded-[5px] bg-gray-300 border border-gray-400 focus:border-Laranja outline-none px-4 py-2 duration-200"
               type="email"
             />
 
@@ -36,17 +41,8 @@ const Entrar = () => {
             </div>
           </form>
 
-          <div className="mb-[20px] flex justify-between w-[230px]">
-            <a className="text-[13px] block hover:text-Laranja duration-200" href="#">
-              Esqueci minha senha
-            </a>
-            <a className="text-[13px] block hover:text-Laranja duration-200" href="#">
-              Criar conta
-            </a>
-          </div>
-
           <button className="w-[300px] bg-Roxo h-[45px] rounded-[5px] text-Laranja hover:scale-105 duration-300">
-            Entrar
+            Cadastrar
           </button>
         </div>
       </div>
@@ -54,4 +50,4 @@ const Entrar = () => {
   );
 };
 
-export default Entrar;
+export default Cadastrar;
