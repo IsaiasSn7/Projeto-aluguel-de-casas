@@ -3,7 +3,7 @@ import casa from "../img/casa.png";
 const Pesquisar = () => {
   return (
     <>
-      <div className="flex flex-col lg:flex-row lg:justify-between lg:px-[50px]">
+      <div className="flex flex-col lg:mb-[100px] lg:flex-row lg:justify-between lg:px-[50px]">
         <div className="mt-[103px] flex flex-col items-center justify-center gap-[16px] lg:mt-[30px] lg:items-start">
           <h1 className="text-Laranja text-[28px] font-bold lg:text-[36px]">
             Onde você quer morar?
@@ -16,7 +16,7 @@ const Pesquisar = () => {
               size="35px"
             ></box-icon>
             <input
-              className="flex-grow bg-transparent px-2 py-1 text-gray-700 focus:outline-none"
+              className="flex-grow bg-transparent px-2 py-1 text-[18px] text-gray-700 focus:outline-none lg:text-[25px]"
               type="search"
             />
             <button className="bg-Roxo flex h-[54px] w-[54px] items-center justify-center rounded-full duration-300 hover:scale-110">
