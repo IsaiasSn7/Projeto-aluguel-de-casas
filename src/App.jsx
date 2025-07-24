@@ -4,8 +4,8 @@ import viteLogo from '/vite.svg'
 import Inicio from './pages/inicio'
 import Entrar from './pages/Entrar'
 import Cadastrar from './pages/Cadastrar'
-import Pesquisa from './pages/Pesquisa'
 import HeaderLogado from './components/HeaderLogado'
+import HomeMobile from './pages/HomeMobile'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,10 +13,10 @@ function App() {
   return (
     <>
       {/* <Inicio /> */}
+      <HomeMobile />
       {/* <Entrar /> */}
       {/* <Cadastrar /> */}
-      {/* <Pesquisa /> */}
-      <HeaderLogado />
+      {/* <HeaderLogado /> */}
     </>
   )
 }

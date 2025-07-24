@@ -3,9 +3,9 @@ import logo from "../img/Logo-chave-certa.png";
 const HeaderLogado = () => {
   return (
     <>
-      <div className="bg-Roxo flex h-[72px] items-center">
+      <div className="bg-Roxo flex h-[72px] items-center w-full">
         <div className="mx-[7%] flex w-full justify-between lg:mx-[50px]">
-          <img className="" src={logo} alt="logo" />
+          <img className="h-[40px]" src={logo} alt="logo" />
           <div className="flex">
             <div className="my-auto flex gap-[7px]">
               <box-icon name="heart" color="#ffffff"></box-icon>

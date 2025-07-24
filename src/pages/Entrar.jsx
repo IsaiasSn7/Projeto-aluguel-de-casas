@@ -5,7 +5,7 @@ const Entrar = () => {
   const [showPassword, setShowPassword] = useState(false);
 
   return (
-    <div className="bg-Roxo flex h-screen w-screen items-center justify-center">
+    <div className="bg-Roxo flex h-screen w-full items-center justify-center">
       <div className="bg-white p-[10px] w-[350px] rounded-[5px] lg:w-[400px]">
         <a href="#"><box-icon name="left-arrow-alt" color="#2b0464"></box-icon></a>
         <div className="flex h-[400px] flex-col items-center justify-center">

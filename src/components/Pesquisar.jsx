@@ -8,7 +8,7 @@ const Pesquisar = () => {
           <h1 className="text-Laranja text-[28px] font-bold lg:text-[36px]">
             Onde você quer morar?
           </h1>
-          <div className="border-Roxo flex w-[374px] items-center justify-between rounded-full border-[3px] p-[2%] lg:w-[500px]">
+          <div className="border-Roxo flex w-[400px] items-center justify-between rounded-full border-[3px] p-[2%] lg:w-[500px]">
             <box-icon
               name="map"
               type="solid"

@@ -3,7 +3,7 @@ import logo from "../img/Logo-chave-certa.png";
 const Footer = () => {
   return (
     <>
-      <div className="bg-Roxo h-[130px] lg:h-[100px]">
+      <div className="bg-Roxo h-[130px] lg:h-[100px] w-full">
         <div className="flex flex-col items-center justify-center lg:mx-[50px] lg:h-full lg:flex-row lg:justify-between">
           <div className="mt-[50px] lg:mt-0">
             <img src={logo} alt="logo" />
