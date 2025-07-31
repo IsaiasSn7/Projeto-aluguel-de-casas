@@ -1,15 +1,20 @@
+import HeaderLogado from "../components/HeaderLogado";
+import Imoveis from "../components/Imoveis";
 import Sidebar from "../components/sidebar";
+import SidebarDireita from "../components/SidebarDireita";
 
 function HomeMobile() {
   return (
-    <div className="min-h-screen bg-gray-100">
-      <header className="bg-gray-800 text-white p-4 flex items-center">
+    <div className="min-h-screen">
+      <header className="bg-Roxo flex items-center justify-between">
         <Sidebar />
-        <h1 className="text-xl font-semibold ml-4">Meu Site</h1>
+        <HeaderLogado />
+        <SidebarDireita />
       </header>
-
-      <main className="p-4">
-        <p>Conteúdo principal da página.</p>
+      <main>
+        <Imoveis />
+        <Imoveis />
+        <Imoveis />
       </main>
     </div>
   );
